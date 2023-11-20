@@ -16,7 +16,7 @@
         ```
         ```js
             module.exports = {
-            content: ["./*.html, js"], //tailwind 사용할 템플릿들이 존재하는 경로 지정
+            content: ["./src/*.html, js"], //tailwind 사용할 템플릿들이 존재하는 경로 지정
             theme: {
                 extend: {},
             },
