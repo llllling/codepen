@@ -32,12 +32,12 @@
         ```
     4. CLI가 입력되는 코드들을 CSS로 컴파일 및 빌드하도록 실행
         * –watch :  파일의 변화를 감지하여 그 때마다 빌드를 해준다.
-    ```sh
-    npx tailwindcss -i ./src/style.css -o ./dist/output.css --watch
-    ```
+        ```sh
+        npx tailwindcss -i ./src/style.css -o ./dist/output.css --watch
+        ```
     5. HTML의 <head>에 컴파일된 Tailwind CSS 파일을 추가하고, 스타일링 코드를 작성
-    ```html
-    <head>
-         <link href="/dist/output.css" rel="stylesheet" />
-    </head>
-    ```
+        ```html
+        <head>
+            <link href="/dist/output.css" rel="stylesheet" />
+        </head>
+        ```
