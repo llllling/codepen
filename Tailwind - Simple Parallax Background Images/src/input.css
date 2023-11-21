@@ -1,0 +1,16 @@
+/* global.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-header {
+    background-image : url(https://picsum.photos/1920/1920/?random);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.bg-quote {
+    background: url(https://picsum.photos/1600/1600/?random) center center no-repeat; /*center center : 배경 이미지를 가로, 세로 중앙에 위치*/
+    background-attachment: fixed;
+  }
