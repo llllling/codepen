@@ -560,24 +560,12 @@ video {
   height: 100vh;
 }
 
-.w-full {
-  width: 100%;
-}
-
-.w-screen {
-  width: 100vw;
-}
-
-.max-w-lg {
-  max-width: 32rem;
+.max-w-3xl {
+  max-width: 48rem;
 }
 
 .place-items-center {
   place-items: center;
-}
-
-.scroll-smooth {
-  scroll-behavior: smooth;
 }
 
 .bg-black {
